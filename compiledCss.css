@@ -1,0 +1,100 @@
+* {
+  box-sizing: content-box;
+}
+
+li {
+  text-align:  center;
+  list-style: none;
+  width: 200px;
+  margin-left: -29px;
+}
+
+button {
+  background: linear-gradient(#b3f788, #FFFFFF);
+  border-radius: 5px;
+  height: 40px;
+}
+
+.allBody {
+  width: 1024px;
+  height: 70%;
+  margin: 10px auto;
+  padding: 10px;
+  background: #B3F788;
+}
+
+.main-headder {
+  border-radius: 25px;
+  margin: 20px 20px;
+  padding: 10px;
+  background: linear-gradient(rgba(0,0,0,0), white);
+}
+
+.firstTitle {
+  padding-left: 10px;
+}
+
+
+.central-space {
+  margin: 20px;
+  height: 500px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#second-headder {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid #339933;
+  position: relative;
+}
+
+.pictureOfGuy {
+  width: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#secondTitle {
+  font-size: 2px;
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding top: 10px;
+}
+
+#white-space {
+  width: 75%;
+  background-color: #FFFFFF;
+  padding: 0 10px;
+}
+
+#right-column {
+  width: 25%;
+  background-color: #E3FFDE;
+  padding: 0 10px;
+
+}
+
+#thirdTitle {
+  text-align: center;
+}
+
+.friend {
+  width: 180px;
+}
+
+#enterUserName {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin: 20px;
+}
+
+.resetButton {
+  display: block;
+}
